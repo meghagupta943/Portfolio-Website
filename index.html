@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,4 +221,228 @@
 <!-- Main JS -->
 <script src="index.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images\imagelogoweb.jpg" type="image">
+    <title>Megha Personal</title>
+    
+    <!-- ICONSCOUT cdn-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--Google font(poppins and outfit)-->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- ======animate on scroll====== -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- /* ================NAV================ */ -->
+
+    <nav>
+        <div class="container nav__container">
+            <a href="" class="nav__logo">
+                <img src="images\logo.jpg" width="70" 
+                height="65" alt="Megha Gupta">
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <button class="nav__theme-btn"><i class="uil uil-moon"></i></button>
+                <button class="nav__toggleopen"><i class="uil uil-bars"></i></button>
+                <button class="nav__toggleclose"><i class="uil uil-multiply"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- /* ==============NAV END============ */ -->
+
+<!-- /* ================HEADER=================== */ -->
+    <header>
+        <div class="container header__container">
+            <article class="header__image" data-aos="fade-up" data-aos-delay="700">
+                <div><img src="images\header_img.jpeg" alt="header img"></div>
+            </article>
+            <article class="header__content" data-aos="fade-in">
+                <h4>Hi, I'm <span>Megha Gupta</span>.  And</h4>
+                <h1>I'm a <span class="multiple-text"></span></h1>
+                <p>Are you looking for an enthusiastic developer. You've come to the right place! I've got a strong interest in web development and am eager to apply my skills to solve real-world problems. Hire me today!</p>
+                <div class="header__cta">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="#projects" class="btn">Work</a>
+                    <!-- <a href="images\megha_gupat_cv_april-mid.pdf" class="btn" target="_blank">View Resume</a> -->
+                </div>
+
+
+            </article>
+            <ul class="header__socials">
+                <li><a href="https://www.linkedin.com/in/megha-gupta-2764b8222/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                <li><a href="https://github.com/meghagupta943" target="_blank"><i class="uil uil-github"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- /* =============Header END================= */ -->
+
+<!-- ==================ABOUT===================== -->
+
+<section class="about" id="about">
+    <div class="container about__container">
+        <div class="about__image">
+            <img src="images\mg_about.jpeg" alt="About image">
+        </div>
+        <div class="about__details" data-aos="fade-in" data-aos-delay="300">
+            <h1>About me</h1>
+            <div class="about__cards">
+                <article class="about__card">
+                <i class="uil uil-book-reader"></i>
+                <h4>Profession</h4>
+                <small>Student</small>
+                </article>
+                <article class="about__card">
+                <i class="uil uil-graduation-cap"></i>
+                <h4>CGPA</h4>
+                <small>8.76</small>
+                </article>
+                <article class="about__card">
+                <i class="uil uil-location-pin-alt"></i>
+                <h4>Location</h4>
+                <small>India</small>
+                </article>
+            </div>
+            <p>
+                Building projects and solving real-world problems drives my professional ambition. Eager to explore diverse opportunities to innovate and create solutions, I leverage my skills and embrace emerging technologies to make impactful contributions across various domains.
+            </p>
+            <p>
+                Hi, my name is Megha Gupta from West Bengal, India. I'm currently pursuing my undergraduate degree in Electronics and Communication at Vellore Institute of Technology, Vellore. With a profound interest in cutting-edge technologies, particularly in web development and artificial intelligence, I am driven by a passion to explore their limitless potential. Check out my resume below!
+            </p>
+            <a href="images\megha_gupat_cv_april-mid.pdf" class="btn primary" download target="_blank"><i class="uil uil-download-alt"></i> Download CV</a>
+        </div>
+    </div>
+</section>
+<!-- /* ================About END================= */ -->
+
+
+<!-- ======================PROJECT===================== -->
+<section class="projects" id="projects">
+    <h1>Recent Projects</h1>
+    <p>Some of my recent works!</p>
+    <ul class="projects__categories">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".web">Web</li>
+        <li data-filter=".app">App</li>
+    </ul>
+
+    <div class="container projects__container" data-aos="fade-in">
+        <article class="project mix web" data-order="1">
+            <div class="project__image">
+                <img src="images\personal_web.jpg" alt="Personal website">
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis commodi quis reprehenderit sed ratione voluptatibus magni alias voluptatem dolores atque modi est quia, nihil quo recusandae illo eos sunt nesciunt.</p>
+            <div class="project__cta">
+                <a href="" class="btn sm primary" target="_blank">Demo</a>
+                <a href="" class="btn sm" target="_blank">Github</a>
+            </div>
+        </article>
+        <article class="project mix app" data-order="2">
+            <div class="project__image">
+                <img src="images\greet_app.jpg" alt="Greeting App">
+            </div>
+            <h3>Greeting App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis commodi quis reprehenderit sed ratione voluptatibus magni alias voluptatem dolores atque modi est quia, nihil quo recusandae illo eos sunt nesciunt.</p>
+            <div class="project__cta">
+                <a href="" class="btn sm primary" target="_blank">Demo</a>
+                <a href="" class="btn sm" target="_blank">Github</a>
+            </div>
+        </article>
+        <article class="project mix web" data-order="3">
+            <div class="project__image">
+                <img src="images\imagedito.jpg" alt="ImagEdito">
+            </div>
+            <h3>ImagEdito</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis commodi quis reprehenderit sed ratione voluptatibus magni alias voluptatem dolores atque modi est quia, nihil quo recusandae illo eos sunt nesciunt.</p>
+            <div class="project__cta">
+                <a href="" class="btn sm primary" target="_blank">Demo</a>
+                <a href="" class="btn sm" target="_blank">Github</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- /* ================Project END================= */ -->
+
+
+<!-- ==================Contact us===================== -->
+<section class="contact" id="contact">
+    <div class="container contact__container">
+        <ul class="contact__list">
+            <li data-aos="fade-in"><a href="mailto:meghha.gupta@gmail.com" class="contact__list-item" target="_blank">
+                <i class="uil uil-envelope"></i>
+            </a></li>
+            <li data-aos="fade-in" data-aos-delay="150"><a href="https://www.linkedin.com/in/megha-gupta-2764b8222/" class="contact__list-item" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+            <li data-aos="fade-in" data-aos-delay="300"><a href="https://telegram.me/+918942858529" class="contact__list-item" target="_blank"><i class="uil uil-telegram-alt"></i></a></li>
+        </ul>
+
+        <form action="https://formsubmit.co/65a54233f8ed13cbce6eb579c51ce708" class="contact__form" method="POST" data-aos="fade-up" data-aos-delay="600">
+            <input type="text" name="Name" placeholder="Full Name">
+            <input type="email" name="Email" placeholder="Email Address">
+            <textarea rows="7" name="Message" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+</section>
+<!-- ==================Contact END===================== -->
+
+
+
+<!-- ==================Footer===================== -->
+<footer>
+    <div class="container footer__container">
+        <ul class="footer__menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="footer__socials">
+            <li><a href="https://www.linkedin.com/in/megha-gupta-2764b8222/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+            <li><a href="https://github.com/meghagupta943" target="_blank"><i class="uil uil-github"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer__copyright">
+        <small>Megha Gupta &copy; All Rights Reserved.</small>
+    </div>
+</footer>
+
+
+
+<!-- MixItUp JS for projects section -->
+<script src="mixitup-v3\patrickkunka-mixitup-61dac05\dist\mixitup.min.js"></script>
+
+<!-- animate on scroll -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration: 1500, offset:80});
+</script>
+
+<!-- Typed JS -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Main JS -->
+<script src="index.js"></script>
+</body>
+>>>>>>> 41512fa (first commit)
 </html>
